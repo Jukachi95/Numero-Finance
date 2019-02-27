@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility Class */
+.text-primary{
+    color: #80be5d;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.bg-light{
+   background-color :#eee
+}
+
+.py-1{  
+    padding: 1.5rem 0;
+}
+.py-2{  
+    padding: 2rem 0;
+
+}  
+.py-3{    
+    padding: 3rem 0;
+}
+
+.p-1{
+padding: 1.5rem
+}
+.p-2{
+padding: 2rem;
+}
+.p-3{
+padding: 3rem;
+}
+
+.bg-dark{
+    background-color: #333;
+}
+
+/* Navbar */
+body{
+    font-family: 'IBM Plex Sans';
+    
+}
+
+
+#navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    z-index: 1;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a{
+    color: #fff;
+    padding: 1rem;
+}
+
+#navbar ul li a:hover{
+    background-color:  #80be5d;
+}
+
+
+#showcase{
+    background: #333 url('../img/city-scape2.jpg');
+    height: 100vh;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* Overlay */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right:0;
+    bottom:0;
+    background: rgba(0,0,0,0.4);
+    
+
+    
+}
+
+#what-we-do{
+    background-color: #eee;
+    
+}
+
+#what-we-do h2{
+text-align: center;
+margin-bottom: 1.5rem;
+
+}
+
+#items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#items .item i{
+    background-color: #80be5d;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Who we are */
+
+#who-we-are{
+   
+    display: flex;
+    color: white;
+}
+
+#who-we-are div{
+    flex: 1;
+}
+
+#who-we-are .who-text h2{
+color: #f4f4f4;
+}
+
+#who-we-are .who-img{
+    background-image: url('../img/staff.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+
+#who-we-are .who-text ul{
+    list-style: none;
+    
+}
+
+#who-we-are .who-text ul li{
+   padding: 1rem 0;
+    border-bottom: 1px dotted #f4f4f4;
+}

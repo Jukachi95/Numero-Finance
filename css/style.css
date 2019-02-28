@@ -55,6 +55,18 @@ padding: 3rem;
     background-color: #333;
 }
 
+.bg-primary{
+    background-color: #80be5d;
+}
+
+.m-heading{
+    font-size: 1.5rem;
+}
+
+.btn-light{
+    background-color: white;
+}
+
 /* Navbar */
 body{
     font-family: 'IBM Plex Sans';
@@ -180,3 +192,41 @@ color: #f4f4f4;
    padding: 1rem 0;
     border-bottom: 1px dotted #f4f4f4;
 }
+
+/* Contact Us */
+
+#contact-us{
+    display: flex;
+    
+}
+
+#contact-us .form,
+#contact-us .map{
+    flex: 1;
+}
+
+#contact-us .form{
+    color: white;
+  
+}
+
+#contact-us .form-group{
+    
+    margin: 0.75rem 0;
+}
+
+#contact-us .form-group input,
+#contact-us .form-group textarea{
+display: block;
+width: 100%;
+padding: 0.5rem;
+margin: auto;
+
+}
+
+#contact-form .map{
+    height: 100%;
+}
+
+
+
